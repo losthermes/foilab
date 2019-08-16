@@ -20,8 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'ns&_=dq6h^(insfb!%pho+w@y5j)r!_uca*r_fodg1&%1jx&!+'
-
+SECRET_KEY = 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -79,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'Pa$3words',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'foi-1.cgxlkoa0jnzk.us-west-2.rds.amazonaws.com',
         'PORT': '5432',
     }
@@ -128,7 +127,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATIC_URL = "https://testfoibucket123456789.s3-us-west-2.amazonaws.com/staticfiles/"
+STATIC_URL = "/static/"
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
