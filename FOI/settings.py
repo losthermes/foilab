@@ -24,7 +24,7 @@ SECRET_KEY =
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pacific-eyrie-53047.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['', 'localhost']
 
 
 # Application definition
